@@ -1,6 +1,9 @@
 spring.datasource:
   url: "jdbc:postgresql://localhost:5433/gb_shop"
-  username: "postgres"
-  password: "admin"
+  username: '{cipher}AQBx+3tCU68HJA9kEBoQj7b/qssjL75DXBakfV4KTZFZgM+ue+d5lm9GTJUMguBEj9NB7/NeETjKpEoot17EIVxX/C/IyWlg1PVaU6PyPVeF4z4Qa0xul+jvwp4tJR+68fziOZM8z8SZz3waEKX0w+sMK8d0L6Ak5Gsjjhs7lnVYmMa97YzS4w8XF96xPNkudlXWAmjDuRsoZ+Tf54CXoYej9iA/rJY5PQjc8NPy5pvM5NwB9NUUmPySVLHQxrg8daHlgRidYR9WNEO6mq3+eeCwm+Y5HTr5pt+etV8DChNMWiddZ+UnImQL0pLYig06dgbNp3H+sqOboNisv8SkSFIYbeGh2rf1AcNxYRia6HVoI5IoMA0mr9upEQfmPfcMZRU='
+  password: '{cipher}AQBac6xFUIsOpX2ONwnEJTlZUmzAdttZCpFGJKGuIhWBYoSdVE+jBoAnIn8cXstv0p6LY+4xnyATCYnL6dH5qHsLkZquDGz4/gY7zOb8I/YxNdc2t++dYEQN9JS7myPBfPVSeejjvexSNADrHin1zpHRy2BH1YApOrYU/C1YppGu8q1B6JMcgnjbUBggm45U8L4urBn0AF1m7C50eP+mDqboSVTbG0gVRG/0Cgiy0SJI6yEFNmO+0F4xZtTbFJdjLsVxHwx2/v6cBWHw/dTtJoa2GssxI357bHaB479SCpVgo08vcujjutycR7TKmKnSktE3d2ipRLaMyBPnf8OzsDZbSxNroj5nqgzI2m7h42mT6SgOJArSIp3Hh+DrrlL58kE='
 
+gb.api:
+  endpoint:
+    base-uri: '127.0.0.1:8080'
 app.setting: 'dv'
